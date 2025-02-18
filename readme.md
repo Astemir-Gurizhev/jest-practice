@@ -1,6 +1,7 @@
 ### Тестирование 
 
 <b>Пример:</b>
+
 			describe('validateValue', () => { 
 				test('Корректное значение', () => {
 					expect(mapArrToStrings([1,2,3])).toEqual(['1','2','3'])
