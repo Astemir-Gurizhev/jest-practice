@@ -1,20 +1,20 @@
 ### Тестирование 
 
 <b>Пример:</b>
-	describe('validateValue', () => {
-		test('Корректное значение', () => {
-			expect(mapArrToStrings([1,2,3])).toEqual(['1','2','3'])
-		})
-		test('Мешанина', () => {
-			expect(mapArrToStrings([1,2,3, null, undefined, 'dfsd'])).toEqual(['1','2','3'])
-		})
-		test('Пустой массив', () => {
-			expect(mapArrToStrings([])).toEqual([])
-		})
-		test('Отрицание', () => {
-			expect(mapArrToStrings([1,2,3])).not.toEqual([1,2,3,4])
-		})
-	})
+			describe('validateValue', () => { 
+				test('Корректное значение', () => {
+					expect(mapArrToStrings([1,2,3])).toEqual(['1','2','3'])
+				})
+				test('Мешанина', () => {
+					expect(mapArrToStrings([1,2,3, null, undefined, 'dfsd'])).toEqual(['1','2','3'])
+				})
+				test('Пустой массив', () => {
+					expect(mapArrToStrings([])).toEqual([])
+				})
+				test('Отрицание', () => {
+					expect(mapArrToStrings([1,2,3])).not.toEqual([1,2,3,4])
+				})
+			})
 
 describe - функция, которая подписывается на несколько тестов. Принимает первым значением строку, которая будет использоваться в качестве описания теста. Вторым значением - функция, которая содержит тесты.
 
