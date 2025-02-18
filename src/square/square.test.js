@@ -1,6 +1,6 @@
 const square = require('./square')
 
-describe('validateValue', () => {
+describe('square', () => {
 	
 	// test('Корректное значение', () => {
 	// 	expect(square(2)).toBe(4)

@@ -1,6 +1,6 @@
 const mapArrToStrings = require('./mapArrToStrings')
 
-describe('validateValue', () => {
+describe('mapArrToStrings', () => {
 	test('Корректное значение', () => {
 		expect(mapArrToStrings([1,2,3])).toEqual(['1','2','3'])
 	})
